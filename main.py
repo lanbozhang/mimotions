@@ -67,8 +67,8 @@ def main(user, passwd, step):
         return
     
     if step == '':
-        print ("已设置为随机步数（18000-25000）")
-        step = str(random.randint(10000,25000))
+        print ("已设置为随机步数（15000-25000）")
+        step = str(random.randint(15000,25000))
     login_token = 0
     login_token,userid = login(user,password)
     if login_token == 0:
